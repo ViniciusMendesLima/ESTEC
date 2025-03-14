@@ -22,7 +22,7 @@ html{
     font-size: 3rem;
     font-weight: 600;
     margin-left: 2rem;
-    position: relative;
+    
 }
 .top-site .menu .primary-menu li a{
     color: #DAE0DF;
@@ -34,12 +34,31 @@ html{
     color: #4A6683;
 }
 
+.top-site .menu .primary-menu .menu-empresa,
+.top-site .menu .primary-menu .menu-produtos{
+    position: relative;
+}
+
+
+
 .primary-menu .sub-menu {
-    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     position: absolute;
     background-color: rgba(75, 83, 92, .7);
+    height: 0;
+    overflow: hidden;
+}
+.primary-menu .sub-menu li{
     padding: 0 2rem;
-    display: none;
+}
+.top-site .menu .primary-menu .menu-empresa:hover .sub-menu{
+    height: 14rem;
+}
+
+.top-site .menu .primary-menu .menu-produtos:hover .sub-menu{
+    height: 14rem;
 }
 
 
