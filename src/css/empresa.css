@@ -1,0 +1,24 @@
+.company{
+    margin-left: 5rem;
+}
+.company .informations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-bottom: 5rem;
+}
+.company .informations .company-image{
+    max-width: 30rem;
+}
+
+.company .informations h2{
+    font-size: 5rem;
+    margin-left: 2rem;
+    font-weight: 500;
+}
+
+.company .informations p{
+    font-size: 2.5rem;
+    line-height: 5rem;
+}
