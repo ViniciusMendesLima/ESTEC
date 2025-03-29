@@ -1,24 +1,18 @@
-.company{
-    margin-left: 5rem;
-}
-.company .informations{
+.enterprise {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    gap: 5rem;
-    padding-bottom: 5rem;
 }
-.company .informations .company-image{
-    max-width: 30rem;
-}
-
-.company .informations h2{
-    font-size: 5rem;
-    margin-left: 2rem;
-    font-weight: 500;
+.enterprise .enterprise-image{
+    width: 60vw;
+    height: 30rem;
 }
 
-.company .informations p{
-    font-size: 2.5rem;
-    line-height: 5rem;
+.enterprise div{
+    margin-top: 2rem;
+    max-width: 80vw;
+}
+
+.enterprise div p{
+    padding: 1.5rem;
 }

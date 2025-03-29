@@ -71,6 +71,30 @@ body{
     gap: 5rem;
 }
 
+.body-site{
+    margin-left: 5rem;
+}
+.body-site .informations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-bottom: 5rem;
+}
+.body-site .informations .company-image{
+    max-width: 40rem;
+}
+
+.body-site .informations h2{
+    font-size: 5rem;
+    margin-left: 2rem;
+    font-weight: 500;
+}
+
+.company .informations p{
+    font-size: 2.5rem;
+    line-height: 5rem;
+}
 .body-site .produtos {
     display: flex;
     flex-direction: row;
