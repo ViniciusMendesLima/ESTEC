@@ -17,6 +17,7 @@ As páginas devem atender os seguintes requisitos:
 - ✅ Página Diversos: deve conter pelo menos 6 imagens de produtos como armários, quadros, estantes e etc.
 
 ## Criar os formulários das páginas Pedidos e Contato. As páginas devem atender os requisitos a seguir:
+ ![](src/image/formulario.png)
 ### Pagina Contato:
 - Campos do Formulário: Campo de texto: Nome, Empresa, Cidade, Telefone, Email.
 - Caixa de seleção (combo box, select ): Departamento para Contato.

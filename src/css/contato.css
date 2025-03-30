@@ -1,0 +1,65 @@
+.body-site{
+    justify-content: flex-start;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 5px;
+    background-color: #f9f9f9;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.contactForm input, 
+.contactForm select,
+.contactForm textarea{
+    font-size: var(--average-font);
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contactForm .howFind h2{
+    font-size: var(--big-font);
+    margin: 2rem 0;
+}
+
+.contactForm .howFind div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactForm .howFind div .radioGrop{
+ display: inline-block;
+}
+
+.contactForm .howFind div .radioGrop label{
+    font-weight: 500;
+}
+
+.contactForm textarea{
+    padding: 1rem;
+}
+
+.contactForm .contactBottom{
+    width: 20rem;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: var(--bg-emphasis);
+    color: var(--color-1);
+    font-size: 2.5rem;
+    transition: .2s;
+    font-weight: 700;
+}
+
+.contactForm .contactBottom:hover{
+    color: var(--color-2);
+    
+}
+

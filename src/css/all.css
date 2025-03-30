@@ -34,7 +34,7 @@ body{
 }
 
 .top-site .menu .primary-menu li a:hover {
-    color: #4A6683;
+    color: var(--color-2);
 }
 
 .top-site .menu .primary-menu .menu-empresa,
@@ -135,4 +135,16 @@ body{
 
 .bottom-site p{
     font-weight: 600;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.container-form label{
+    margin-top: 1rem;
+    font-weight: 700;
 }
