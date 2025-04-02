@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/all.css">
         <link rel="stylesheet" href="../css/variable.css">
+        <link rel="stylesheet" href="../css/pedido.css">
 
     
     </head>
@@ -42,9 +43,67 @@
             </nav>
         </header> 
         <div class="body-site">
-            
-            
-                
+            <div class="container-form">
+                <h1>Pedido</h1>
+                <form class="orderForm">
+                    <div class="orderFormSaller">
+                        <label for="name">Vendedor:</label>
+                        <div>
+                            <select name="Saller-id">
+                                <option>Selecione um Departamento</option>
+                                <option value="saller">Francisco</option>
+                                <option value="saller">Maria</option>
+                                <option value="saller">Eva</option>
+                                <option value="saller">Onofre</option>
+                            </select>
+                            <input type="text" id="name" name="name">
+                        </div>
+                    </div>
+                    <div class="orderFormContact">
+                        <div>
+                            <label for="enterprise">Cliente</label>
+                            <input type="text" id="enterprise" name="enterprise" placeholder="Empresa">
+                        </div>
+
+                        <div>
+                            <label for="enterprise">CNPJ</label>
+                        <input type="text" id="enterprise" name="enterprise" placeholder="CNPJ">
+                        </div>
+
+                        <div>
+                            <label for="adress">Endereço:</label>
+                        <input type="text" id="adress" name="adress" placeholder="Endereço">
+                        </div>
+
+                        <div>
+                            <label for="city">Cidade:</label>
+                        <input type="text" id="city" name="city" placeholder="Cidade">
+                        </div>
+
+                        <div>
+                            <label class="state" for="state">UF:</label>
+                        <input type="text" id="state" name="state" placeholder="UF">
+                        </div>
+
+                        <div>
+                            <label for="phone">Telefone:</label>
+                        <input type="number" id="phone" name="phone" placeholder="Telefone">
+                        </div>
+
+                        <div>
+                            <label for="mail">E-mail:</label>
+                        <input type="text" id="mail" name="mail" placeholder="E-mail">
+                        </div>
+                        
+                    </div>
+                    <div class="OrderFormProducts">
+                        <h2>Produtos</h2>
+
+                    </div>
+                    
+                    <input class="orderBottom" type="submit" value="Enviar">
+                    <input class="orderBottom" type="submit" value="Limpar">
+                </form>
             </div>
         </div>
         <footer class="bottom-site">

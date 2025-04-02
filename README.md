@@ -19,10 +19,10 @@ As páginas devem atender os seguintes requisitos:
 ## Criar os formulários das páginas Pedidos e Contato. As páginas devem atender os requisitos a seguir:
  ![](src/image/formulario.png)
 ### Pagina Contato:
-- Campos do Formulário: Campo de texto: Nome, Empresa, Cidade, Telefone, Email.
-- Caixa de seleção (combo box, select ): Departamento para Contato.
-- Botões de seleção (radio button ): Como conheceu a ESTEC ?
-- Área de Texto (text area): Mensagem.
+- ✅ Campos do Formulário: Campo de texto: Nome, Empresa, Cidade, Telefone, Email.
+- ✅ Caixa de seleção (combo box, select ): Departamento para Contato.
+- ✅ Botões de seleção (radio button ): Como conheceu a ESTEC ?
+- ✅ Área de Texto (text area): Mensagem.
 
 ### Pagina Pedido:
 - Campos do Formulário:
