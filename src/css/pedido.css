@@ -30,3 +30,93 @@
     gap: 20px;
 }
 
+.orderForm .orderFormSaller select{
+    max-width: 150px;
+    cursor: pointer;
+}
+.orderForm .orderFormContact{
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 30px;
+}
+.orderForm .orderFormContact div{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.orderForm .orderFormContact .uf{
+    max-width: 50px;
+}
+
+.orderForm .OrderFormProducts {
+
+    max-width: 90%;
+}
+.orderForm .OrderFormProducts select, .orderForm .OrderFormProducts input{
+margin-bottom: 12px;
+
+}
+.orderForm .OrderFormProducts th, .orderForm .OrderFormProducts td{
+    padding-right: 10px;
+
+}
+
+.orderForm .OrderFormProducts th{
+    text-align: left;
+}
+
+
+.orderForm .OrderFormProducts .selectOrderProduct select{
+    max-width: 150px;
+    cursor: pointer;
+}
+
+.orderForm .OrderFormProducts .selectOrderProduct td:nth-child(2) input{
+    max-width: 300px;
+}
+
+.orderForm .OrderFormProducts .selectOrderProduct td:nth-child(3) input{
+    max-width: 100px;
+}
+
+.orderForm .OrderFormProducts .selectOrderProduct td:nth-child(4) input{
+    max-width: 20px;
+}
+
+.orderForm .OrderFormProducts .selectOrderProduct td:nth-child(5) input{
+    max-width: 120px;
+}
+
+.orderForm .OrderFormProducts .selectOrderProductTotalValue {
+display: flex;
+justify-content: end;
+margin-right: 85px;
+}
+
+.orderForm .OrderFormProducts .selectOrderProductTotalValue label{
+    margin-right: 5px;
+}
+.orderForm .OrderFormProducts .selectOrderProductTotalValue input{
+    max-width: 120px;
+    margin-bottom: 0;
+}
+
+.orderForm .bottons .orderBottom{
+    margin-left: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.orderForm .bottons .orderBottom:hover{
+    border: 1px solid black;
+}
+
+
+

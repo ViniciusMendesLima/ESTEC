@@ -49,14 +49,14 @@
                     <div class="orderFormSaller">
                         <label for="name">Vendedor:</label>
                         <div>
-                            <select name="Saller-id">
-                                <option>Selecione um Departamento</option>
-                                <option value="saller">Francisco</option>
-                                <option value="saller">Maria</option>
-                                <option value="saller">Eva</option>
-                                <option value="saller">Onofre</option>
+                            <select name="Saller-id" id="sallerSelect">
+                                <option>Selecione um Funcionário</option>
+                                <option value="Francisco Mendes">Francisco</option>
+                                <option value="Maria Pinheiro">Maria</option>
+                                <option value="Eva Mendes">Eva</option>
+                                <option value="Onofre Mendes">Onofre</option>
                             </select>
-                            <input type="text" id="name" name="name">
+                            <input type="text" id="nameSaller" name="name">
                         </div>
                     </div>
                     <div class="orderFormContact">
@@ -80,7 +80,7 @@
                         <input type="text" id="city" name="city" placeholder="Cidade">
                         </div>
 
-                        <div>
+                        <div class="uf">
                             <label class="state" for="state">UF:</label>
                         <input type="text" id="state" name="state" placeholder="UF">
                         </div>
@@ -98,11 +98,122 @@
                     </div>
                     <div class="OrderFormProducts">
                         <h2>Produtos</h2>
+                        <table>
+                            <tr>
+                                <th>Selecione Produto</th>
+                                <th>Descrição</th>
+                                <th>Valor Unitario</th>
+                                <th>Qtd</th>
+                                <th>Valor Total Item</th>
+                            </tr>
+                            
+                            <tr class="selectOrderProduct">
+                                <td>
+                                    <select name="Product-id" id="productSelect">
+                                        <option>Selecione um Produto</option>
+                                        <option>Cadeira</option>
+                                        <option>Mesa</option>
+                                        <option>Quadro</option>
+                                        <option>Estante</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                            </tr>
+
+                            <tr class="selectOrderProduct">
+                                <td>
+                                    <select name="Product-id" id="productSelect">
+                                        <option>Selecione um Produto</option>
+                                        <option>Cadeira</option>
+                                        <option>Mesa</option>
+                                        <option>Quadro</option>
+                                        <option>Estante</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                            </tr>
+
+                            <tr class="selectOrderProduct">
+                                <td>
+                                    <select name="Product-id" id="productSelect">
+                                        <option>Selecione um Produto</option>
+                                        <option>Cadeira</option>
+                                        <option>Mesa</option>
+                                        <option>Quadro</option>
+                                        <option>Estante</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                            </tr>
+
+                            <tr class="selectOrderProduct">
+                                <td>
+                                    <select name="Product-id" id="productSelect">
+                                        <option>Selecione um Produto</option>
+                                        <option>Cadeira</option>
+                                        <option>Mesa</option>
+                                        <option>Quadro</option>
+                                        <option>Estante</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <input type="text">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                                <td>
+                                    <input type="number">
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="selectOrderProductTotalValue">
+                            <label>Valot Total Pedido</label>
+                            <input type="number">
+                        </div>
 
                     </div>
-                    
-                    <input class="orderBottom" type="submit" value="Enviar">
-                    <input class="orderBottom" type="submit" value="Limpar">
+
+                    <div class="bottons">
+                        <input class="orderBottom" type="submit" value="Enviar">
+                        <input class="orderBottom" type="submit" value="Limpar">
+                    </div>
                 </form>
             </div>
         </div>
@@ -112,4 +223,5 @@
     </main>
     
 </body>
+<script src="../../src/js/pedidos.js"></script>
 </html>
