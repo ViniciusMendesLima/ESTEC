@@ -1,2 +1,2 @@
-import { setGreeting } from './greeting.js';
-setGreeting();
+import { setMenu } from "./menu.js";
+setMenu();

@@ -14,92 +14,62 @@
     </head>
     <body>
         <main class="container">
-            <header class="top-site">
-                <div class="top-header">
-                    <a href="../../index.html">
-                        <img class="image-logo" src="../image/logo.png" alt="ESCTEC">
-                    </a>
-                    <span class="greet">Bom dia</span>
-                </div>
-            <nav class="menu">
-                <ul class="primary-menu">
-                    <li class="menu-empresa ">
-                        <a href="../../src/pages/empresa.html">Empresa
-                            <ul class="sub-menu">
-                                <li><a href="../../src/pages/missao.html">Missão</a></li>
-                                <li><a href="../../src/pages/visão.html">Visão</a></li>
-                                <li><a href="../../src/pages/valores.html">Valores</a></li>
-                            </ul>
-                        </a>
-                    </li>
-                    <li class="menu-produtos">
-                        <a href="../../src/pages/produtos.html">Produtos
-                            <ul class="sub-menu">
-                                <li><a href="../../src/pages/mesas.html">Mesas</a></li>
-                                <li><a href="../../src/pages/cadeiras.html">Cadeiras</a></li>
-                                <li><a href="../../src/pages/diversos.html">Diversos</a></li>
-                            </ul>
-                        </a>
-                    </li>
-                    <li><a href="../../src/pages/pedidos.html">Pedidos</a></li>
-                    <li><a href="../../src/pages/contato.html">Contato</a></li>
-            </nav>
-        </header> 
-        <div class="body-site">
-            <div class="container-form">
-                <h1>Contato</h1>
-                <form class="contactForm">
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" name="name">
+            <div id="menu"></div>
+            <div class="body-site">
+                <div class="container-form">
+                    <h1>Contato</h1>
+                    <form class="contactForm">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name">
 
-                    <label for="enterprise">Empresa:</label>
-                    <input type="text" id="enterprise" name="enterprise">
+                        <label for="enterprise">Empresa:</label>
+                        <input type="text" id="enterprise" name="enterprise">
 
-                    <label for="city">Cidade:</label>
-                    <input type="text" id="city" name="city">
+                        <label for="city">Cidade:</label>
+                        <input type="text" id="city" name="city">
 
-                    <label for="phone">Telefone:</label>
-                    <input type="number" id="phone" name="phone">
+                        <label for="phone">Telefone:</label>
+                        <input type="number" id="phone" name="phone">
 
-                    <label for="mail">E-mail:</label>
-                    <input type="text" id="mail" name="mail">
+                        <label for="mail">E-mail:</label>
+                        <input type="text" id="mail" name="mail">
 
-                    <label for="department-id
-                    ">Departamento</label>
-                    <select name="contact-department" id="department-id">
-                        <option>Selecione um Departamento</option>
-                        <option value="contact">Departamento para Contato</option>
-                    </select>
-                    <div class="howFind">
-                        <h2>Como conheceu a ESTEC ?</h2>
-                        <div>
-                            <div class="radioGrop">
-                                <label for="radioIndication">Indicação</label>
-                                <input type="radio" name="howIFind" id="radioIndication" required>
-                            </div>
-                            <div class="radioGrop">
-                                <label for="e-mail">E-mail</label>
-                            <input type="radio" name="howIFind"  id="e-mail" required>
-                            </div>
-                            <div class="radioGrop">
-                                <label for="radioSearchEngines">Buscadores</label>
-                                <input type="radio" name="howIFind"  id="radioSearchEngines" required> 
+                        <label for="department-id
+                        ">Departamento</label>
+                        <select name="contact-department" id="department-id">
+                            <option>Selecione um Departamento</option>
+                            <option value="contact">Departamento para Contato</option>
+                        </select>
+                        <div class="howFind">
+                            <h2>Como conheceu a ESTEC ?</h2>
+                            <div>
+                                <div class="radioGrop">
+                                    <label for="radioIndication">Indicação</label>
+                                    <input type="radio" name="howIFind" id="radioIndication" required>
+                                </div>
+                                <div class="radioGrop">
+                                    <label for="e-mail">E-mail</label>
+                                <input type="radio" name="howIFind"  id="e-mail" required>
+                                </div>
+                                <div class="radioGrop">
+                                    <label for="radioSearchEngines">Buscadores</label>
+                                    <input type="radio" name="howIFind"  id="radioSearchEngines" required> 
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <label for="contactMessage"></label>
-                    <textarea name="contactMessage" id="contactMessage" rows="6" cols="50" placeholder="Digite seu texto aqui..."></textarea>
+                        <label for="contactMessage"></label>
+                        <textarea name="contactMessage" id="contactMessage" rows="6" cols="50" placeholder="Digite seu texto aqui..."></textarea>
 
 
-                    <input class="contactBottom" type="submit" value="Enviar">
-                </form>
+                        <input class="contactBottom" type="submit" value="Enviar">
+                    </form>
+                </div>
             </div>
-        </div>
-        <footer class="bottom-site">
-            <p>&copy ESTEC brasil - fone (xx) xxxx-xxxx | faleconosco@esctecbrasil.com.br</p>
-        </footer>
-    </main>
-    <script type="module" src="../../src/scripts/index.js"></script>
-</body>
+            <footer class="bottom-site">
+                <p>&copy ESTEC brasil - fone (xx) xxxx-xxxx | faleconosco@esctecbrasil.com.br</p>
+            </footer>
+        </main>
+        <script type="module" src="../../src/scripts/index.js"></script>
+    </body>
 </html>

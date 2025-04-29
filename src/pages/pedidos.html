@@ -14,217 +14,187 @@
     </head>
     <body>
         <main class="container">
-            <header class="top-site">
-                <div class="top-header">
-                    <a href="../../index.html">
-                        <img class="image-logo" src="../image/logo.png" alt="ESCTEC">
-                    </a>
-                    <span class="greet">Bom dia</span>
-                </div>
-            <nav class="menu">
-                <ul class="primary-menu">
-                    <li class="menu-empresa ">
-                        <a href="../../src/pages/empresa.html">Empresa
-                            <ul class="sub-menu">
-                                <li><a href="../../src/pages/missao.html">Missão</a></li>
-                                <li><a href="../../src/pages/visão.html">Visão</a></li>
-                                <li><a href="../../src/pages/valores.html">Valores</a></li>
-                            </ul>
-                        </a>
-                    </li>
-                    <li class="menu-produtos">
-                        <a href="../../src/pages/produtos.html">Produtos
-                            <ul class="sub-menu">
-                                <li><a href="../../src/pages/mesas.html">Mesas</a></li>
-                                <li><a href="../../src/pages/cadeiras.html">Cadeiras</a></li>
-                                <li><a href="../../src/pages/diversos.html">Diversos</a></li>
-                            </ul>
-                        </a>
-                    </li>
-                    <li><a href="../../src/pages/pedidos.html">Pedidos</a></li>
-                    <li><a href="../../src/pages/contato.html">Contato</a></li>
-            </nav>
-        </header> 
-        <div class="body-site">
-            <div class="container-form">
-                <h1>Pedido</h1>
-                <form class="orderForm">
-                    <div class="orderFormSaller">
-                        <label for="name">Vendedor:</label>
-                        <div>
-                            <select name="Saller-id" id="sallerSelect">
-                                <option>Selecione um Funcionário</option>
-                                <option value="Francisco Mendes">Francisco</option>
-                                <option value="Maria Pinheiro">Maria</option>
-                                <option value="Eva Mendes">Eva</option>
-                                <option value="Onofre Mendes">Onofre</option>
-                            </select>
-                            <input type="text" id="nameSaller" name="name">
+            <div id="menu"></div>
+            <div class="body-site">
+                <div class="container-form">
+                    <h1>Pedido</h1>
+                    <form class="orderForm">
+                        <div class="orderFormSaller">
+                            <label for="name">Vendedor:</label>
+                            <div>
+                                <select name="Saller-id" id="sallerSelect">
+                                    <option>Selecione um Funcionário</option>
+                                    <option value="Francisco Mendes">Francisco</option>
+                                    <option value="Maria Pinheiro">Maria</option>
+                                    <option value="Eva Mendes">Eva</option>
+                                    <option value="Onofre Mendes">Onofre</option>
+                                </select>
+                                <input type="text" id="nameSaller" name="name">
+                            </div>
                         </div>
-                    </div>
-                    <div class="orderFormContact">
-                        <div>
-                            <label for="enterprise">Cliente</label>
-                            <input type="text" id="enterprise" name="enterprise" placeholder="Empresa">
-                        </div>
+                        <div class="orderFormContact">
+                            <div>
+                                <label for="enterprise">Cliente</label>
+                                <input type="text" id="enterprise" name="enterprise" placeholder="Empresa">
+                            </div>
 
-                        <div>
-                            <label for="enterprise">CNPJ</label>
-                        <input type="text" id="enterprise" name="enterprise" placeholder="CNPJ">
-                        </div>
+                            <div>
+                                <label for="enterprise">CNPJ</label>
+                            <input type="text" id="enterprise" name="enterprise" placeholder="CNPJ">
+                            </div>
 
-                        <div>
-                            <label for="adress">Endereço:</label>
-                        <input type="text" id="adress" name="adress" placeholder="Endereço">
-                        </div>
+                            <div>
+                                <label for="adress">Endereço:</label>
+                            <input type="text" id="adress" name="adress" placeholder="Endereço">
+                            </div>
 
-                        <div>
-                            <label for="city">Cidade:</label>
-                        <input type="text" id="city" name="city" placeholder="Cidade">
-                        </div>
+                            <div>
+                                <label for="city">Cidade:</label>
+                            <input type="text" id="city" name="city" placeholder="Cidade">
+                            </div>
 
-                        <div class="uf">
-                            <label class="state" for="state">UF:</label>
-                        <input type="text" id="state" name="state" placeholder="UF">
-                        </div>
+                            <div class="uf">
+                                <label class="state" for="state">UF:</label>
+                            <input type="text" id="state" name="state" placeholder="UF">
+                            </div>
 
-                        <div>
-                            <label for="phone">Telefone:</label>
-                        <input type="number" id="phone" name="phone" placeholder="Telefone">
-                        </div>
+                            <div>
+                                <label for="phone">Telefone:</label>
+                            <input type="number" id="phone" name="phone" placeholder="Telefone">
+                            </div>
 
-                        <div>
-                            <label for="mail">E-mail:</label>
-                        <input type="text" id="mail" name="mail" placeholder="E-mail">
-                        </div>
-                        
-                    </div>
-                    <div class="OrderFormProducts">
-                        <h2>Produtos</h2>
-                        <table>
-                            <tr>
-                                <th>Selecione Produto</th>
-                                <th>Descrição</th>
-                                <th>Valor Unitario</th>
-                                <th>Qtd</th>
-                                <th>Valor Total Item</th>
-                            </tr>
+                            <div>
+                                <label for="mail">E-mail:</label>
+                            <input type="text" id="mail" name="mail" placeholder="E-mail">
+                            </div>
                             
-                            <tr class="selectOrderProduct">
-                                <td>
-                                    <select name="Product-id" id="productSelect">
-                                        <option>Selecione um Produto</option>
-                                        <option>Cadeira</option>
-                                        <option>Mesa</option>
-                                        <option>Quadro</option>
-                                        <option>Estante</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    <input type="text">
-                                </td>
-                                <td>
-                                    <input type="number">
-                                </td>
-                                <td>
-                                    <input type="number">
-                                </td>
-                                <td>
-                                    <input type="number">
-                                </td>
-                            </tr>
+                        </div>
+                        <div class="OrderFormProducts">
+                            <h2>Produtos</h2>
+                            <table>
+                                <tr>
+                                    <th>Selecione Produto</th>
+                                    <th>Descrição</th>
+                                    <th>Valor Unitario</th>
+                                    <th>Qtd</th>
+                                    <th>Valor Total Item</th>
+                                </tr>
+                                
+                                <tr class="selectOrderProduct">
+                                    <td>
+                                        <select name="Product-id" id="productSelect">
+                                            <option>Selecione um Produto</option>
+                                            <option>Cadeira</option>
+                                            <option>Mesa</option>
+                                            <option>Quadro</option>
+                                            <option>Estante</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input type="text">
+                                    </td>
+                                    <td>
+                                        <input type="number">
+                                    </td>
+                                    <td>
+                                        <input type="number">
+                                    </td>
+                                    <td>
+                                        <input type="number">
+                                    </td>
+                                </tr>
 
-                            <tr class="selectOrderProduct">
-                                <td>
-                                    <select name="Product-id" id="productSelect">
-                                        <option>Selecione um Produto</option>
-                                        <option>Cadeira</option>
-                                        <option>Mesa</option>
-                                        <option>Quadro</option>
-                                        <option>Estante</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    <input type="text">
-                                </td>
-                                <td>
-                                    <input type="number">
-                                </td>
-                                <td>
-                                    <input type="number">
-                                </td>
-                                <td>
-                                    <input type="number">
-                                </td>
-                            </tr>
+                                <tr class="selectOrderProduct">
+                                    <td>
+                                        <select name="Product-id" id="productSelect">
+                                            <option>Selecione um Produto</option>
+                                            <option>Cadeira</option>
+                                            <option>Mesa</option>
+                                            <option>Quadro</option>
+                                            <option>Estante</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input type="text">
+                                    </td>
+                                    <td>
+                                        <input type="number">
+                                    </td>
+                                    <td>
+                                        <input type="number">
+                                    </td>
+                                    <td>
+                                        <input type="number">
+                                    </td>
+                                </tr>
 
-                            <tr class="selectOrderProduct">
-                                <td>
-                                    <select name="Product-id" id="productSelect">
-                                        <option>Selecione um Produto</option>
-                                        <option>Cadeira</option>
-                                        <option>Mesa</option>
-                                        <option>Quadro</option>
-                                        <option>Estante</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    <input type="text">
-                                </td>
-                                <td>
-                                    <input type="number">
-                                </td>
-                                <td>
-                                    <input type="number">
-                                </td>
-                                <td>
-                                    <input type="number">
-                                </td>
-                            </tr>
+                                <tr class="selectOrderProduct">
+                                    <td>
+                                        <select name="Product-id" id="productSelect">
+                                            <option>Selecione um Produto</option>
+                                            <option>Cadeira</option>
+                                            <option>Mesa</option>
+                                            <option>Quadro</option>
+                                            <option>Estante</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input type="text">
+                                    </td>
+                                    <td>
+                                        <input type="number">
+                                    </td>
+                                    <td>
+                                        <input type="number">
+                                    </td>
+                                    <td>
+                                        <input type="number">
+                                    </td>
+                                </tr>
 
-                            <tr class="selectOrderProduct">
-                                <td>
-                                    <select name="Product-id" id="productSelect">
-                                        <option>Selecione um Produto</option>
-                                        <option>Cadeira</option>
-                                        <option>Mesa</option>
-                                        <option>Quadro</option>
-                                        <option>Estante</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    <input type="text">
-                                </td>
-                                <td>
-                                    <input type="number">
-                                </td>
-                                <td>
-                                    <input type="number">
-                                </td>
-                                <td>
-                                    <input type="number">
-                                </td>
-                            </tr>
-                        </table>
-                        <div class="selectOrderProductTotalValue">
-                            <label>Valot Total Pedido</label>
-                            <input type="number">
+                                <tr class="selectOrderProduct">
+                                    <td>
+                                        <select name="Product-id" id="productSelect">
+                                            <option>Selecione um Produto</option>
+                                            <option>Cadeira</option>
+                                            <option>Mesa</option>
+                                            <option>Quadro</option>
+                                            <option>Estante</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <input type="text">
+                                    </td>
+                                    <td>
+                                        <input type="number">
+                                    </td>
+                                    <td>
+                                        <input type="number">
+                                    </td>
+                                    <td>
+                                        <input type="number">
+                                    </td>
+                                </tr>
+                            </table>
+                            <div class="selectOrderProductTotalValue">
+                                <label>Valot Total Pedido</label>
+                                <input type="number">
+                            </div>
+
                         </div>
 
-                    </div>
-
-                    <div class="bottons">
-                        <input class="orderBottom" type="submit" value="Enviar">
-                        <input class="orderBottom" type="submit" value="Limpar">
-                    </div>
-                </form>
+                        <div class="bottons">
+                            <input class="orderBottom" type="submit" value="Enviar">
+                            <input class="orderBottom" type="submit" value="Limpar">
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
-        <footer class="bottom-site">
-            <p>&copy ESTEC brasil - fone (xx) xxxx-xxxx | faleconosco@esctecbrasil.com.br</p>
-        </footer>
-    </main>
-    <script type="module" src="../../src/scripts/index.js"></script>
-    <script src="../../src/js/pedidos.js"></script>
-</body>
+            <footer class="bottom-site">
+                <p>&copy ESTEC brasil - fone (xx) xxxx-xxxx | faleconosco@esctecbrasil.com.br</p>
+            </footer>
+        </main>
+        <script type="module" src="../../src/scripts/index.js"></script>
+        <script src="../../src/js/pedidos.js"></script>
+    </body>
 </html>
