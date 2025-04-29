@@ -25,13 +25,13 @@ As páginas devem atender os seguintes requisitos:
 - ✅ Área de Texto (text area): Mensagem.
 
 ### Pagina Pedido:
-- Campos do Formulário:
-- Campo de texto: Nome Vendedor, Empresa, CNPJ, Endereço, Cidade, UF
+- ✅ Campos do Formulário:
+- ✅ Campo de texto: Nome Vendedor, Empresa, CNPJ, Endereço, Cidade, UF
 Telefone, Email, Itens de Produto (descrição de produtos, qtde, valor unitário, valor
 total por item) onde o pedido deve aceitar no máximo 5 produtos e valor t otal do
 pedido.
-- Caixa de seleção (combo box, select ): Vendedor (criar pelo menos 5
+- ✅ Caixa de seleção (combo box, select ): Vendedor (criar pelo menos 5
 vendedores), Produto (utilizar os mesmos produtos das paginas produtos, cadeiras,
 mesas e diversos).
-- Botões de seleção (radio button): Como conheceu a ESTEC ?
-- Área de Texto (text área): Mensagem.
+- ✅ Botões de seleção (radio button): Como conheceu a ESTEC ?
+- ✅ Área de Texto (text área): Mensagem.
