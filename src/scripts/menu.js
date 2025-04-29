@@ -4,8 +4,9 @@ import { setGreeting } from "./greeting.js";
 
 export function setMenu(){
 document.addEventListener("DOMContentLoaded", () => {
-    const basePath = window.location.pathname.split("/")[1];
-    const fullPath = `/${basePath}/src/pages/menu.html`;
+    const pathParts = window.location.pathname.split("/");
+    const basePath = pathParts[1] ? `/${pathParts[1]}` : "";
+    const fullPath = `${basePath}/src/pages/menu.html`;
 
     fetch(fullPath)
     .then(response => response.text())
