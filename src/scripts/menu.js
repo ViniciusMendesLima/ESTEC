@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let basePath
     if (pathParts[1] === "index.html") {
         basePath = " "
-    } else if(pathParts[1] === ""){
+    } else if(pathParts[1] === "ESTEC"){
         basePath = "ESTEC/"
     } else {
         basePath = "../../"
