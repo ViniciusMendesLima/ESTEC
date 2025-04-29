@@ -7,10 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const pathParts = window.location.pathname.split("/");
     console.log(pathParts);
     let basePath
-    if (pathParts[1] === "index.html" || pathParts[1] === "ESTEC") {
+    if (pathParts[1] === "index.html") {
         basePath = " "
-    } else {
+    } else if(pathParts[1] === "ESTEC"){
         basePath = "../../"
+    } else {
+        basePath = "ESTEC/"
     }
     console.log(basePath);
     const fullPath = `${basePath}src/pages/menu.html`;
