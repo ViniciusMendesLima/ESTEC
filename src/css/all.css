@@ -9,6 +9,16 @@ body{
     max-width: 100vw;
     font-size: 2rem;
 }
+
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.top-header .greet{
+    margin-right: 1.5rem;
+}
 .top-site .image-logo{
     width: 12rem;
 }
