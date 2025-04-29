@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
     let basePath
     if (pathParts[1] === "index.html") {
         basePath = " "
-    } else if(pathParts[1] === "ESTEC"){
-        basePath = "../../"
-    } else {
+    } else if(pathParts[1] === ""){
         basePath = "ESTEC/"
+    } else {
+        basePath = "../../"
     }
     console.log(basePath);
     const fullPath = `${basePath}src/pages/menu.html`;
