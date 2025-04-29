@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log("primeiro");
         
     } else if(pathParts[1] === "ESTEC"){
-        basePath = "../"
+        basePath = ""
         console.log("segundo");
 
     } else {
