@@ -10,10 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
     if (pathParts[1] === "index.html" || pathParts[1] === "ESTEC") {
         basePath = ""
     } else {
-        basePath = "../.."
+        basePath = "../../"
     }
     console.log(basePath);
-    const fullPath = `${basePath}/src/pages/menu.html`;
+    const fullPath = `${basePath}src/pages/menu.html`;
     console.log(fullPath);
 
     fetch(fullPath)
