@@ -8,7 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(pathParts);
     
     let basePath
-    if (pathParts[1] === "index.html" && pathParts[1] ==="ESTEC" ) {
+    if (pathParts[1] === "index.html") {
+        basePath = ""
+    } else if(pathParts[1] ==="ESTEC"){
         basePath = ""
     } else {
         basePath = "../.."
