@@ -2,7 +2,7 @@ import { setGreeting } from "./greeting.js";
 
 export function setMenu(){
 document.addEventListener("DOMContentLoaded", () => {
-    fetch("src/pages/menu.html")
+    fetch("../../src/pages/menu.html")
     .then(response => response.text())
     .then(data => {
         document.getElementById("menu").innerHTML = data;
