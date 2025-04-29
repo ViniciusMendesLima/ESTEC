@@ -1,11 +1,9 @@
 import { setGreeting } from "./greeting.js";
 
-//const autlaPath = window.location.pathname.includes("pages") ? "../" : "src/";
-
 export function setMenu(){
 document.addEventListener("DOMContentLoaded", () => {
     const pathParts = window.location.pathname.split("/");
-    console.log(pathParts);
+    // console.log(pathParts);
     let basePath
     if (pathParts[1] === "index.html") {
         basePath = " "
@@ -20,9 +18,9 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log("terceiro");
 
     }
-    console.log(basePath);
+    // console.log(basePath);
     const fullPath = `${basePath}src/pages/menu.html`;
-    console.log(fullPath);
+    console.log("caminho completo: "+fullPath);
 
     fetch(fullPath)
     .then(response => response.text())

@@ -35,3 +35,10 @@ vendedores), Produto (utilizar os mesmos produtos das paginas produtos, cadeiras
 mesas e diversos).
 - ✅ Botões de seleção (radio button): Como conheceu a ESTEC ?
 - ✅ Área de Texto (text área): Mensagem.
+
+### Java Script:
+- ✅ Mensagem de “Bom dia”, “Boa tarde” ou “Boa Noite” de acordo com o horário que a página è visitada.
+- Criar em Java Script uma função que verifica se o CNPJ informado por parâmetro é
+válido.
+- Criar em Java Script uma função para verificar se um email informado por parâmetro é válido.
+- Criar em Java Script uma função para verificar se um texto informado possui menos que três letras, caso for verdadeiro exibir uma mensagem (alert) informando que o texto é inválido.
