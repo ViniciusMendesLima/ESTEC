@@ -38,7 +38,7 @@ mesas e diversos).
 
 ### Java Script:
 - ✅ Mensagem de “Bom dia”, “Boa tarde” ou “Boa Noite” de acordo com o horário que a página è visitada.
-- Criar em Java Script uma função que verifica se o CNPJ informado por parâmetro é
+- ✅ Criar em Java Script uma função que verifica se o CNPJ informado por parâmetro é
 válido.
-- Criar em Java Script uma função para verificar se um email informado por parâmetro é válido.
+- ✅ Criar em Java Script uma função para verificar se um email informado por parâmetro é válido.
 - Criar em Java Script uma função para verificar se um texto informado possui menos que três letras, caso for verdadeiro exibir uma mensagem (alert) informando que o texto é inválido.
