@@ -7,20 +7,20 @@ document.addEventListener("DOMContentLoaded", () => {
     let basePath
     if (pathParts[1] === "index.html") {
         basePath = " "
-        console.log("primeiro");
+        // console.log("primeiro");
         
     } else if(pathParts[1] === "ESTEC"){
         basePath = ""
-        console.log("segundo");
+        // console.log("segundo");
 
     } else {
         basePath = "../../"
-        console.log("terceiro");
+        // console.log("terceiro");
 
     }
     // console.log(basePath);
     const fullPath = `${basePath}src/pages/menu.html`;
-    console.log("caminho completo: "+fullPath);
+    // console.log("caminho completo: "+fullPath);
 
     fetch(fullPath)
     .then(response => response.text())

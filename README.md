@@ -41,4 +41,15 @@ mesas e diversos).
 - ✅ Criar em Java Script uma função que verifica se o CNPJ informado por parâmetro é
 válido.
 - ✅ Criar em Java Script uma função para verificar se um email informado por parâmetro é válido.
-- Criar em Java Script uma função para verificar se um texto informado possui menos que três letras, caso for verdadeiro exibir uma mensagem (alert) informando que o texto é inválido.
+- ✅Criar em Java Script uma função para verificar se um texto informado possui menos que três letras, caso for verdadeiro exibir uma mensagem (alert) informando que o texto é inválido.
+    - 📄 Página "Contato"
+        - Nome
+        - Empresa
+        - Cidade
+
+    - 📄 Página "Pedido"
+        - Nome Vendedor
+        - Empresa
+        - Cidade
+        - Endereço
+        - Itens de Produto (descrição)
