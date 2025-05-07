@@ -2,13 +2,20 @@ import {setValidadeCNPJ} from "./validadecnpj.js";
 import {setMask} from "./mask.js"
 import {setValidateSizeInput} from"./validateSizeInput.js"
 
-const select = document.getElementById('sallerSelect');
+const sallerFullName = document.getElementById('sallerSelect');
+const orderUF = document.getElementById('state');
 const inputNameSaller = document.getElementById('nameSaller');
 let cnpj = document.getElementById("enterprise");
-let eMail = document.getElementById("mail")
+let eMail = document.getElementById("mail");
 const sizeValidate = document.querySelectorAll(".sizeValidate");
+const btnSend = document.getElementById("btnSend");
+const sendValidate = document.querySelectorAll(".sendValidate")
 
-select.addEventListener("change", function() {
+setValidateSizeInput(sizeValidate)
+
+
+
+sallerFullName.addEventListener("change", function() {
     inputNameSaller.value = this.value;
 })
 
@@ -56,5 +63,20 @@ function validarEmail(email) {
     return regex.test(email)
 }
 
-setValidateSizeInput(sizeValidate)
+btnSend.addEventListener("click", (e) =>{
+    e.preventDefault();
+    console.log("sendValidate length:", sendValidate.length);
+    for (let i = 0; i < sendValidate.length; i++){
+        if(sendValidate[i].value.trim() === ""){
+            alert ("Preencha " + sendValidate[i].placeholder)
+            return;
+        }
+    }
+
+    if (orderUF.value === "") {
+        alert ("Preencha UF")
+        return;
+    }
+})
+
 

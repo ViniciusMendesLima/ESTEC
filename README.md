@@ -28,7 +28,7 @@ As páginas devem atender os seguintes requisitos:
 - ✅ Campos do Formulário:
 - ✅ Campo de texto: Nome Vendedor, Empresa, CNPJ, Endereço, Cidade, UF
 Telefone, Email, Itens de Produto (descrição de produtos, qtde, valor unitário, valor
-total por item) onde o pedido deve aceitar no máximo 5 produtos e valor t otal do
+total por item) onde o pedido deve aceitar no máximo 5 produtos e valor total do
 pedido.
 - ✅ Caixa de seleção (combo box, select ): Vendedor (criar pelo menos 5
 vendedores), Produto (utilizar os mesmos produtos das paginas produtos, cadeiras,

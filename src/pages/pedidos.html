@@ -29,43 +29,74 @@
                                     <option value="Eva Mendes">Eva</option>
                                     <option value="Onofre Mendes">Onofre</option>
                                 </select>
-                                <input class="sizeValidate" type="text" id="nameSaller" name="name">
+                                <input class="sizeValidate sendValidate" type="text" id="nameSaller" name="name" placeholder="Vendedor" disabled>
                             </div>
                         </div>
                         <div class="orderFormContact">
                             <div>
                                 <label for="client">Cliente</label>
-                                <input class="sizeValidate" type="text" id="client" name="client" placeholder="Empresa">
+                                <input class="sizeValidate sendValidate" type="text" id="client" name="client" placeholder="Empresa">
                             </div>
 
                             <div>
                                 <label for="enterprise">CNPJ</label>
-                            <input type="text" id="enterprise" name="enterprise" placeholder="CNPJ">
+                            <input class="sendValidate" type="text" id="enterprise" name="enterprise" placeholder="CNPJ">
                             </div>
 
                             <div>
                                 <label for="adress">Endereço:</label>
-                            <input class="sizeValidate" type="text" id="adress" name="adress" placeholder="Endereço">
+                            <input class="sizeValidate sendValidate" type="text" id="adress" name="adress" placeholder="Endereço">
                             </div>
 
                             <div>
                                 <label for="city">Cidade:</label>
-                            <input class="sizeValidate" type="text" id="city" name="city" placeholder="Cidade">
+                            <input class="sizeValidate sendValidate" type="text" id="city" name="city" placeholder="Cidade">
                             </div>
 
                             <div class="uf">
                                 <label class="state" for="state">UF:</label>
-                            <input type="text" id="state" name="state" placeholder="UF">
-                            </div>
+                                <select name="uf" id="state" name="state" placeholder="UF">
+                                    <option></option>
+                                    <option>AC</option>
+                                    <option>AL</option>
+                                    <option>AP</option>
+                                    <option>AM</option>
+                                    <option>BA</option>
+                                    <option>CE</option>
+                                    <option>DF</option>
+                                    <option>ES</option>
+                                    <option>GO</option>
+                                    <option>MA</option>
+                                    <option>MT</option>
+                                    <option>MS</option>
+                                    <option>MG</option>
+                                    <option>PA</option>
+                                    <option>PB</option>
+                                    <option>PR</option>
+                                    <option>PE</option>
+                                    <option>PI</option>
+                                    <option>RJ</option>
+                                    <option>RN</option>
+                                    <option>RS</option>
+                                    <option>RO</option>
+                                    <option>RR</option>
+                                    <option>SC</option>
+                                    <option>SP</option>
+                                    <option>SE</option>
+                                    <option>TO</option>
+                                  </select>
+                                <!-- 
+                            <input class="sendValidate" type="text" id="state" name="state" placeholder="UF" maxlength="2">-->
+                            </div> 
 
                             <div>
                                 <label for="phone">Telefone:</label>
-                            <input type="number" id="phone" name="phone" placeholder="Telefone">
+                            <input class="sendValidate" type="number" id="phone" name="phone" placeholder="Telefone">
                             </div>
 
                             <div>
                                 <label for="mail">E-mail:</label>
-                            <input type="text" id="mail" name="mail" placeholder="E-mail">
+                            <input class="sendValidate" type="text" id="mail" name="mail" placeholder="E-mail">
                             </div>
                             
                         </div>
