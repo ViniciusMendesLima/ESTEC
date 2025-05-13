@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
          console.log("segundo");
 
     } else {
-        basePath = "../../"
+        basePath = "https://viniciusmendeslima.github.io/ESTEC/"
          console.log("terceiro");
 
     }
