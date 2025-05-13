@@ -1,6 +1,8 @@
 import { setGreeting } from "./greeting.js";
 
 export function setMenu() {
+    console.log("entrou no menu");
+    
   document.addEventListener("DOMContentLoaded", () => {
     const isLocal = location.hostname === "127.0.0.1" || location.hostname === "localhost";
     console.log(isLocal);
