@@ -1,3 +1,3 @@
-import { setMenu } from "./menu.js";
-setMenu();
+// import { setMenu } from "./menu.js";
+// setMenu();
 
