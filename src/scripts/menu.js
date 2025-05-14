@@ -6,9 +6,10 @@ export function setMenu() {
   document.addEventListener("DOMContentLoaded", () => {
     const isLocal = location.hostname === "127.0.0.1" || location.hostname === "localhost";
     console.log(isLocal);
+    const repoName = "/ESTEC";
     
     // Caminho base conforme ambiente
-    const basePath = isLocal ? "/src/pages/menu.html" : "https://viniciusmendeslima.github.io/ESTEC/src/pages/menu.html";
+    const basePath = isLocal ? "/src/pages/menu.html" : `${repoName}/src/pages/menu.html`;
     console.log(basePath);
     
 
