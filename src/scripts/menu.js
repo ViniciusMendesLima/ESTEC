@@ -1,17 +1,13 @@
 import { setGreeting } from "./greeting.js";
 
 export function setMenu() {
-    console.log("entrou no menu");
-    
   document.addEventListener("DOMContentLoaded", () => {
     const isLocal = location.hostname === "127.0.0.1" || location.hostname === "localhost";
-    console.log(isLocal);
     const repoName = "/ESTEC";
-    
-    // Caminho base conforme ambiente
-    const basePath = isLocal ? "/src/pages/menu.html" : `${repoName}/src/pages/menu.html`;
-    console.log(basePath);
-    
+
+    const basePath = isLocal
+      ? "/src/pages/menu.html"
+      : `${repoName}/src/pages/menu.html`;
 
     fetch(basePath)
       .then(response => {
@@ -27,6 +23,7 @@ export function setMenu() {
       });
   });
 }
+
 
 
 // import { setGreeting } from "./greeting.js";
