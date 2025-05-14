@@ -9,6 +9,8 @@ export function setMenu() {
     
     // Caminho base conforme ambiente
     const basePath = isLocal ? "/src/pages/menu.html" : "https://viniciusmendeslima.github.io/ESTEC/src/pages/menu.html";
+    console.log(basePath);
+    
 
     fetch(basePath)
       .then(response => {
